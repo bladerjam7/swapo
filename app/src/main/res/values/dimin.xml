@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_options_height">150dp</dimen>
+    <dimen name="button_options_weight">75dp</dimen>
+    <dimen name="swapo">50dp</dimen>
+</resources>

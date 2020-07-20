@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Fragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/swapo"
+                android:gravity="center"
+                android:text="SWAPO"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btn_create_new"
+                android:layout_width="@dimen/button_options_height"
+                android:layout_height="@dimen/button_options_weight"
+                android:layout_weight="1"
+                android:text="Create New" />
+
+            <Button
+                android:id="@+id/btn_use_existing"
+                android:layout_width="@dimen/button_options_height"
+                android:layout_height="@dimen/button_options_weight"
+                android:layout_weight="1"
+                android:text="Use Existing" />
+
+
+
+            <!--<Button
+                android:id="@+id/btn_swapo"
+                android:layout_width="@dimen/button_options_height"
+                android:layout_height="@dimen/button_options_weight"
+                android:layout_weight="1"
+                android:text="Swapo" />-->
+
+            <Button
+                android:id="@+id/btn_send_to_friend"
+                android:layout_width="@dimen/button_options_height"
+                android:layout_height="@dimen/button_options_weight"
+                android:layout_weight="1"
+                android:text="Send to friend" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by: John Le"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"/>
+</FrameLayout>

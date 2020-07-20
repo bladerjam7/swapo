@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_ui"
+    app:startDestination="@id/main_Fragment">
+
+    <fragment
+        android:id="@+id/main_Fragment"
+        android:name="com.example.swapo.Main_Fragment"
+        android:label="fragment_main_"
+        tools:layout="@layout/fragment_main_" >
+        <action
+            android:id="@+id/action_main_Fragment_to_create_New_Fragment"
+            app:destination="@id/create_New_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/create_New_Fragment"
+        android:name="com.example.swapo.Create_New_Fragment"
+        android:label="fragment_create__new_"
+        tools:layout="@layout/fragment_create__new_" />
+</navigation>
